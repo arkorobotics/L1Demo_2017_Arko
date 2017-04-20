@@ -2,16 +2,16 @@
 #define GPU_H 
 
 
-#define CLOCKDIV 69
-#define HOR_RES 80UL
+#define CLOCKDIV 25
+#define HOR_RES 320UL
 #define VER_RES 480UL
-#define HOR_FRONT_PORCH 32
-#define HOR_PULSE_WIDTH 8
-#define HOR_BACK_PORCH  32
-#define VER_FRONT_PORCH 10
-#define VER_PULSE_WIDTH 5
-#define VER_BACK_PORCH  10
-#define BPP 8
+#define HOR_FRONT_PORCH 16
+#define HOR_PULSE_WIDTH 96
+#define HOR_BACK_PORCH  48
+#define VER_FRONT_PORCH 11
+#define VER_PULSE_WIDTH 2
+#define VER_BACK_PORCH  31
+#define BPP 2
 #define VENST_FUDGE 0
 #define HENST_FUDGE 0
 #define VSPOL 0              /* sync polarities */
